@@ -37,7 +37,6 @@ class Credits(Item):
         value = self.amount)
 
 # WEAPONS #
-
 class Handgun(Weapon):
     def __init__(self, name, description, value, damage, damage_type):
         super().__init__(name = "Handgun", 
